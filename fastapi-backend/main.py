@@ -2,7 +2,7 @@
 Author: J.sky bosichong@qq.com
 Date: 2022-11-17 09:45:51
 LastEditors: J.sky bosichong@qq.com
-LastEditTime: 2022-11-18 08:21:25
+LastEditTime: 2023-02-13 17:37:01
 FilePath: /vue3-fastapi/fastapi-backend/main.py
 '''
 import os,sys
@@ -78,7 +78,7 @@ def test():
 
 @app.get("/getitems")
 def get_item_list(skip: int = 0, limit: int = 10,db:Session = Depends(get_db)):
-    # print(skip,limit)
+    print(skip,limit)
     data = dict()
     data["items"] = get_items(db=db,skip=skip,limit=limit)
     data["item_count"] = get_item_count(db)

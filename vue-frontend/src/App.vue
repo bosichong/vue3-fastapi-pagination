@@ -2,7 +2,7 @@
  * @Author: J.sky bosichong@qq.com
  * @Date: 2022-11-17 08:45:56
  * @LastEditors: J.sky bosichong@qq.com
- * @LastEditTime: 2022-11-17 11:32:03
+ * @LastEditTime: 2023-02-13 17:37:36
  * @FilePath: /vue3-fastapi/vue-frontend/src/App.vue
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -17,11 +17,6 @@ import Home from './components/Home.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="vue3 fastapi tests" />
-    </div>
   </header>
 
   <main>
