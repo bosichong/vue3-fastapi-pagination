@@ -2,17 +2,13 @@
  * @Author: J.sky bosichong@qq.com
  * @Date: 2022-11-17 08:45:56
  * @LastEditors: J.sky bosichong@qq.com
- * @LastEditTime: 2023-02-13 17:37:36
+ * @LastEditTime: 2023-02-14 08:49:07
  * @FilePath: /vue3-fastapi/vue-frontend/src/App.vue
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import Home from './components/Home.vue'
-
-
-
-
 </script>
 
 <template>
