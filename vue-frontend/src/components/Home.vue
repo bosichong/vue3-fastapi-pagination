@@ -14,8 +14,9 @@
   </n-list>
   <n-pagination v-model:page="current" :item-count="count" :on-update:page="showSizeChange" />
 
-
 </template>
+
+
 <script setup>
 import { ref, watch } from 'vue'
 import axios from 'axios'
